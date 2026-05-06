@@ -1,0 +1,23 @@
+- Team ID
+    GetGut@AAU
+
+- Task ID
+    6.2.1
+
+- Run ID
+    1
+
+- Type of training applied
+    Sentence-level relation classification using weighted funnel-based training with entity boundaries, as described in the scripts of this repository.
+
+- Pre-processing methods
+    Sentence-level entity pair extraction with character offset management. Marked text injection using [E1]/[/E1] and [E2]/[/E2] tags for subject and object entities. Text normalisation and lowercase conversion for predicate labels.
+
+- Training data used
+    Gold, silver, silver2025 and bronze
+
+- Relevant details of the run
+    - Base Model: BiomedNLP-BiomedBERT-large-uncased-abstract
+
+- A link to a GitHub repository enabling easy reproducibility of the run:
+   https://github.com/SophusJ/GetGut-AAU

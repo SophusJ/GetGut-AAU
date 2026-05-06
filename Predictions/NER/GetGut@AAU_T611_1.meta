@@ -1,0 +1,26 @@
+- Team ID
+    GetGut@AAU
+
+- Task ID
+    6.1.1
+
+- Run ID
+    1
+
+- Type of training applied
+    Finetuned model from a base GLiNER architecture on biomedical entity recognition tasks as described in the scripts of this repository.
+
+- Pre-processing methods
+    Sliding windows with overlap 
+    Character offset pre-calculation. 
+    Processing at the section level (title and abstract) with entity position tracking relative to the original document.
+
+- Training data used
+    Gold, silver, silver2025 and bronze
+
+- Relevant details of the run
+    - Base Model: GLiNER (pretrained finetuned model)
+  
+- A link to a GitHub repository enabling easy reproducibility of the run:
+    https://github.com/SophusJ/GetGut-AAU
+  

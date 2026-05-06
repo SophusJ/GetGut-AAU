@@ -1,0 +1,23 @@
+- Team ID
+    GetGut@AAU
+
+- Task ID
+    6.2.2
+
+- Run ID
+    1
+
+- Type of training applied
+    Concept-level Relation Extraction (C-RE) using SapBERT-based entity linking applied to mention-level relations. Converts mention-level relations to concept-level relations by linking subject and object entity text spans to canonical concept URIs using contextual dictionary matching as described in the scripts of this repository.
+
+- Pre-processing methods
+    Sentence-level context extraction using NLTK punkt tokeniser. For each relation's subject and object spans, context format: [entity_span] [SEP] [host_sentence]. Hybrid similarity computation across a pre-encoded contextual dictionary. Entity URI prediction using a weighted combination of span-level and contextual representations.
+
+- Training data used
+   Gold, silver, silver2025
+
+- Relevant details of the run
+    - Base Model: SapBERT (cambridgeltl/SapBERT-from-PubMedBERT-fulltext)
+   
+- A link to a GitHub repository enabling easy reproducibility of the run:
+   https://github.com/SophusJ/GetGut-AAU

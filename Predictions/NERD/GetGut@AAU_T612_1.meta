@@ -1,0 +1,24 @@
+- Team ID
+    GetGut@AAU
+
+- Task ID
+    6.1.2
+
+- Run ID
+    1
+
+- Type of training applied
+    Named Entity Recognition and Disambiguation (NERD) using SapBERT-based contextual dictionary matching. Contextual entity-URI dictionary created from training data, with hybrid similarity scoring combining span-level and context-aware representations as described in the scripts of this repository
+
+- Pre-processing methods
+    Sentence-level context extraction using NLTK punkt tokenizer (see Scripts/EL_dictionary_creation.py). Context format: [entity_span] [SEP] [host_sentence]. Lowercase normalisation for entity spans.
+
+- Training data used
+    Gold, silver, silver2025 training annotations
+
+- Relevant details of the run
+    - Base Model: SapBERT (cambridgeltl/SapBERT-from-PubMedBERT-fulltext)
+    - Hybrid Scoring Weights: 0.85 (span similarity) + 0.15 (contextual similarity)
+
+- A link to a GitHub repository enabling easy reproducibility of the run:
+https://github.com/SophusJ/GetGut-AAU

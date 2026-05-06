@@ -1,0 +1,890 @@
+pmid|annotator|subject_uri|subject_label|predicate|object_uri|object_label
+35766370|expert_6|http://snomed.info/id/449888003|DDF|target|http://purl.obolibrary.org/obo/NCIT_C16268|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C35041|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+35766370|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C35041|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/CHEBI_16412|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+35766370|expert_6|https://uts.nlm.nih.gov/uts/umls/concept/C4761062|DDF|target|http://purl.obolibrary.org/obo/NCIT_C16268|human
+35766370|expert_6|http://purl.obolibrary.org/obo/CHEBI_16412|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C50918|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C35041|DDF|affect|https://uts.nlm.nih.gov/uts/umls/concept/C4761062|DDF
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C20151|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://w3id.org/hereditary/ontology/gutbrain/resource/H000182|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C13333|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://w3id.org/hereditary/ontology/gutbrain/resource/H000182|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+35766370|expert_6|http://snomed.info/id/1149492007|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCBITaxon_656892|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C13333|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+35766370|expert_6|http://purl.obolibrary.org/obo/OMIT_0026886|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C20464|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C20151|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+35766370|expert_6|http://id.nlm.nih.gov/mesh/D060825|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C16268|human
+35766370|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C35041|DDF
+35766370|expert_6|http://purl.obolibrary.org/obo/MONDO_0850292|DDF|target|http://purl.obolibrary.org/obo/NCIT_C16268|human
+35766370|expert_6|https://uts.nlm.nih.gov/uts/umls/concept/C5578082|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35766370|expert_6|http://id.nlm.nih.gov/mesh/D010361|human|used by|http://purl.obolibrary.org/obo/NCIT_C165543|biomedical technique
+35766370|expert_6|http://purl.obolibrary.org/obo/NCIT_C215366|DDF|target|http://purl.obolibrary.org/obo/NCIT_C16268|human
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C12392|anatomical location|located in|http://w3id.org/hereditary/ontology/gutbrain/resource/H000005|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/CHEBI_22977|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C50670|DDF
+34912029|expert_6|http://purl.obolibrary.org/obo/CHEBI_22977|chemical|change expression|http://purl.obolibrary.org/obo/NCIT_C105362|gene
+34912029|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://w3id.org/hereditary/ontology/gutbrain/resource/H000005|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://w3id.org/hereditary/ontology/gutbrain/resource/H000110|biomedical technique
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location|located in|http://w3id.org/hereditary/ontology/gutbrain/resource/H000005|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/CHEBI_22977|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C50670|DDF|target|http://w3id.org/hereditary/ontology/gutbrain/resource/H000005|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|target|http://w3id.org/hereditary/ontology/gutbrain/resource/H000005|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C12434|anatomical location|located in|http://w3id.org/hereditary/ontology/gutbrain/resource/H000005|animal
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C153189|biomedical technique
+34912029|expert_6|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/OBI_0002763|biomedical technique
+40791596|expert_6|http://purl.obolibrary.org/obo/OHMI_0000006|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|target|http://purl.obolibrary.org/obo/NCIT_C25190|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OHMI_0000006|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C97092|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0026220|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C21007|DDF
+40791596|expert_6|http://id.nlm.nih.gov/mesh/C086400|chemical|interact|http://purl.obolibrary.org/obo/NCIT_C105971|chemical
+40791596|expert_6|http://purl.obolibrary.org/obo/OHMI_0000006|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C2317|food|administered|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C131176|DDF
+40791596|expert_6|http://snomed.info/id/18097004|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C21007|DDF
+40791596|expert_6|http://snomed.info/id/18097004|chemical|administered|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://snomed.info/id/18097004|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0026220|chemical|administered|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0026220|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C131176|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0013345|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C195952|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0013345|chemical|administered|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C195952|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C21007|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://snomed.info/id/18097004|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OHMI_0000006|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0013345|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C195952|DDF|target|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0026220|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OHMI_0000006|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C25190|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C21007|DDF|target|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|target|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0013345|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C21007|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C97092|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C19409|chemical|impact|http://purl.obolibrary.org/obo/OHMI_0000006|microbiome
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C2317|food|administered|http://id.nlm.nih.gov/mesh/D010361|human
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0013345|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40791596|expert_6|http://snomed.info/id/18097004|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C195952|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/OMIT_0026220|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C195952|DDF
+40791596|expert_6|http://purl.obolibrary.org/obo/NCIT_C97092|DDF|target|http://purl.obolibrary.org/obo/NCIT_C28143|human
+40376196|expert_7|http://purl.obolibrary.org/obo/NCIT_C173982|food|influence|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+40376196|expert_7|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+40376196|expert_7|http://purl.obolibrary.org/obo/NCIT_C173982|food|influence|http://purl.obolibrary.org/obo/NCIT_C50773|DDF
+40376196|expert_7|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C18189|DDF
+40376196|expert_7|http://purl.obolibrary.org/obo/CHEBI_36080|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+40376196|expert_7|http://purl.obolibrary.org/obo/NCIT_C173982|food|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+36731694|expert_7|http://snomed.info/id/360972004|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C160998|animal
+36731694|expert_7|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C160998|animal
+36731694|expert_7|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://id.nlm.nih.gov/mesh/D000090862|DDF
+36731694|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C49019|biomedical technique
+36731694|expert_7|http://purl.obolibrary.org/obo/NCIT_C2991|DDF|target|http://purl.obolibrary.org/obo/NCIT_C160998|animal
+36731694|expert_7|http://purl.obolibrary.org/obo/CHEBI_26666|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C160998|animal
+36731694|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C160998|animal
+36731694|expert_7|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+36731694|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://id.nlm.nih.gov/mesh/68008828|biomedical technique
+36731694|expert_7|http://id.nlm.nih.gov/mesh/D000090862|DDF|target|http://purl.obolibrary.org/obo/NCIT_C160998|animal
+36731694|expert_7|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|interact|http://purl.obolibrary.org/obo/CHEBI_26666|chemical
+36253847|expert_7|http://purl.obolibrary.org/obo/NCIT_C925|drug|impact|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+36253847|expert_7|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+36253847|expert_7|http://purl.obolibrary.org/obo/NCBITaxon_169435|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+36253847|expert_7|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36253847|expert_7|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome|is linked to|http://purl.obolibrary.org/obo/OMIT_0016272|DDF
+36253847|expert_7|http://purl.obolibrary.org/obo/NCIT_C258|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C17741|DDF
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://id.nlm.nih.gov/mesh/D000090862|DDF
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39019369|expert_3|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://snomed.info/id/373930000|DDF
+39019369|expert_3|http://snomed.info/id/373930000|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39019369|expert_3|http://purl.obolibrary.org/obo/NCIT_C28179|chemical|influence|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+38721606|expert_3|http://id.nlm.nih.gov/mesh/D008973|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C116345|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCIT_C85961|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C60989|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_1506553|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C60989|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_31969|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C116345|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_1730|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C116345|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCIT_C86442|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C60989|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_1730|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C60989|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_841|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+38721606|expert_3|http://purl.obolibrary.org/obo/NCIT_C86729|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C128411|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C84564|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C88412|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C196862|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3242|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/OMIT_0005152|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://snomed.info/id/84114007|DDF
+39970929|expert_3|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+39166107|expert_4|http://purl.obolibrary.org/obo/CHEBI_64645|chemical|located in|http://id.nlm.nih.gov/mesh/D056547|anatomical location
+39166107|expert_4|http://purl.obolibrary.org/obo/BTO_0002774|chemical|located in|http://id.nlm.nih.gov/mesh/D056654|anatomical location
+39166107|expert_4|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39166107|expert_4|http://purl.obolibrary.org/obo/NCBITaxon_656892|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+39166107|expert_4|http://purl.obolibrary.org/obo/NCIT_C68804|chemical|located in|http://id.nlm.nih.gov/mesh/D056547|anatomical location
+39166107|expert_4|http://id.nlm.nih.gov/mesh/D006094|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+39166107|expert_4|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|change abundance|http://id.nlm.nih.gov/mesh/D006094|bacteria
+39166107|expert_4|http://purl.obolibrary.org/obo/NCIT_C68804|chemical|located in|http://id.nlm.nih.gov/mesh/D056654|anatomical location
+39166107|expert_4|http://id.nlm.nih.gov/mesh/D056547|anatomical location|located in|http://www.informatics.jax.org/allele/MGI:3524957|animal
+39166107|expert_4|http://purl.obolibrary.org/obo/NCIT_C61506|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39166107|expert_4|http://purl.obolibrary.org/obo/OMIT_0030168|chemical|located in|http://id.nlm.nih.gov/mesh/D056547|anatomical location
+39166107|expert_4|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|change abundance|http://purl.obolibrary.org/obo/NCBITaxon_656892|bacteria
+39166107|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C142337|biomedical technique
+39166107|expert_4|http://purl.obolibrary.org/obo/OMIT_0030168|chemical|located in|http://id.nlm.nih.gov/mesh/D056654|anatomical location
+39166107|expert_4|http://id.nlm.nih.gov/mesh/D056654|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39166107|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C17753|biomedical technique
+39166107|expert_4|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF|strike|http://id.nlm.nih.gov/mesh/D056654|anatomical location
+39166107|expert_4|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF|strike|http://id.nlm.nih.gov/mesh/D056547|anatomical location
+39166107|expert_4|http://purl.obolibrary.org/obo/BTO_0002774|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+39166107|expert_4|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|interact|http://purl.obolibrary.org/obo/BTO_0002774|chemical
+39166107|expert_4|http://purl.obolibrary.org/obo/NCBITaxon_47715|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39166107|expert_4|http://id.nlm.nih.gov/mesh/D056654|anatomical location|located in|http://www.informatics.jax.org/allele/MGI:3524957|animal
+39166107|expert_4|http://purl.obolibrary.org/obo/CHEBI_64645|chemical|located in|http://id.nlm.nih.gov/mesh/D056654|anatomical location
+39166107|expert_4|http://purl.obolibrary.org/obo/OMIT_0026689|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C3138|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C174450|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C37962|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C81670|chemical|interact|http://purl.obolibrary.org/obo/NCIT_C37962|chemical
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C37962|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C26714|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C174450|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C37962|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3138|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C37962|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C174450|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C26714|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C174450|DDF
+39252622|expert_4|http://purl.obolibrary.org/obo/NCIT_C174450|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C50440|DDF
+35158177|expert_4|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+35158177|expert_4|https://uts.nlm.nih.gov/uts/umls/concept/C0684155|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C111195|biomedical technique
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCBITaxon_37704|biomedical technique
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://w3id.org/hereditary/ontology/gutbrain/resource/H000176|biomedical technique
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+35158177|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C16553|biomedical technique
+33963227|expert_1|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3362|DDF
+33963227|expert_1|http://purl.obolibrary.org/obo/NCBITaxon_841|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+33963227|expert_1|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+33963227|expert_1|http://purl.obolibrary.org/obo/NCBITaxon_29465|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+33963227|expert_1|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+33963227|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+33963227|expert_1|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+33963227|expert_1|http://purl.obolibrary.org/obo/NCIT_C86729|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+40715737|expert_1|http://purl.obolibrary.org/obo/NCIT_C48807|chemical|interact|http://purl.obolibrary.org/obo/NCIT_C48807|chemical
+40715737|expert_1|http://purl.obolibrary.org/obo/CHEBI_36080|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+40715737|expert_1|http://purl.obolibrary.org/obo/NCIT_C75652|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+40715737|expert_1|http://purl.obolibrary.org/obo/NCIT_C154779|anatomical location|located in|http://id.nlm.nih.gov/mesh/D010361|human
+40715737|expert_1|http://purl.obolibrary.org/obo/NCIT_C18106|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40715737|expert_1|http://purl.obolibrary.org/obo/PR_000005437|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C37940|DDF
+40715737|expert_1|http://purl.obolibrary.org/obo/NCIT_C12444|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37762089|expert_1|http://purl.obolibrary.org/obo/OHMI_0000002|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D019636|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|change expression|http://purl.obolibrary.org/obo/NCIT_C85562|gene
+37762089|expert_1|http://purl.obolibrary.org/obo/OHMI_0000002|microbiome|is linked to|http://purl.obolibrary.org/obo/HP_0004386|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/OHMI_0000002|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2889|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/OHMI_0000002|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C85562|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C3138|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/OHMI_0000002|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C97161|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C459|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C20151|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C97161|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C20151|DDF
+37762089|expert_1|http://purl.obolibrary.org/obo/OHMI_0000002|microbiome|located in|https://uts.nlm.nih.gov/uts/umls/concept/C0460148|anatomical location
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|impact|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+37762089|expert_1|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+39392298|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12438|anatomical location
+39392298|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C195952|DDF
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|http://purl.obolibrary.org/obo/NCIT_C25391|biomedical technique
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|https://uts.nlm.nih.gov/uts/umls/concept/C3484113|biomedical technique
+38151560|expert_5|http://purl.obolibrary.org/obo/CHEBI_25812|chemical|part of|http://purl.obolibrary.org/obo/OMIT_0001823|chemical
+38151560|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_239934|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C29886|chemical
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C29843|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C46110|human
+38151560|expert_5|http://purl.obolibrary.org/obo/OMIT_0001823|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C16268|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://snomed.info/id/449888003|DDF|target|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C29886|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C46110|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|target|http://purl.obolibrary.org/obo/NCIT_C16268|human
+38151560|expert_5|http://purl.obolibrary.org/obo/CHEBI_25812|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C46110|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_2039302|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C29886|chemical
+38151560|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_1940338|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_1940338|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C29843|chemical
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C29843|chemical|part of|http://purl.obolibrary.org/obo/OMIT_0001823|chemical
+38151560|expert_5|http://id.nlm.nih.gov/mesh/D013482|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/OMIT_0001823|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|target|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_239934|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C29886|chemical|part of|http://purl.obolibrary.org/obo/OMIT_0001823|chemical
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|target|http://purl.obolibrary.org/obo/NCIT_C46110|human
+38151560|expert_5|http://id.nlm.nih.gov/mesh/D005979|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C29867|human
+38151560|expert_5|http://purl.obolibrary.org/obo/NCIT_C76742|chemical|part of|http://purl.obolibrary.org/obo/OMIT_0001823|chemical
+28652571|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D019636|DDF
+28652571|expert_5|http://purl.obolibrary.org/obo/NCIT_C116671|chemical|interact|http://id.nlm.nih.gov/mesh/D064067|chemical
+28652571|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+28652571|expert_5|http://id.nlm.nih.gov/mesh/D064067|chemical|part of|http://id.nlm.nih.gov/mesh/D064067|chemical
+37422636|expert_6|http://purl.obolibrary.org/obo/NCIT_C17004|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37422636|expert_6|http://purl.obolibrary.org/obo/NCIT_C116921|human|used by|http://purl.obolibrary.org/obo/NCIT_C15176|biomedical technique
+37422636|expert_6|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+37422636|expert_6|http://purl.obolibrary.org/obo/NCIT_C17004|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+37422636|expert_6|http://id.nlm.nih.gov/mesh/D010361|human|used by|http://purl.obolibrary.org/obo/NCIT_C15176|biomedical technique
+37422636|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|change expression|http://purl.obolibrary.org/obo/NCIT_C18595|gene
+37422636|expert_6|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37422636|expert_6|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37422636|expert_6|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+34092633|expert_6|http://id.nlm.nih.gov/mesh/D000073496|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C4786|DDF
+34092633|expert_6|http://id.nlm.nih.gov/mesh/D000073496|DDF|target|http://id.nlm.nih.gov/mesh/D000328|human
+34092633|expert_6|http://id.nlm.nih.gov/mesh/D000073496|DDF|target|http://purl.obolibrary.org/obo/NCIT_C16268|human
+39579960|expert_6|http://purl.obolibrary.org/obo/NCIT_C2952|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C195946|DDF
+39579960|expert_6|http://purl.obolibrary.org/obo/NCIT_C3138|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+39579960|expert_6|http://purl.obolibrary.org/obo/NCIT_C3138|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C195945|DDF
+39579960|expert_6|http://purl.obolibrary.org/obo/NCIT_C3138|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C195946|DDF
+39819054|expert_1|http://id.nlm.nih.gov/mesh/D010361|human|used by|http://purl.obolibrary.org/obo/NCIT_C189125|biomedical technique
+39819054|expert_1|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+39819054|expert_1|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+39819054|expert_1|http://snomed.info/id/250436000|anatomical location|located in|http://id.nlm.nih.gov/mesh/D010361|human
+39819054|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+39819054|expert_1|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location|located in|http://id.nlm.nih.gov/mesh/D010361|human
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C63812|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12438|anatomical location
+34926318|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D000090862|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3006|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C401|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34926318|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C12387|anatomical location
+34926318|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2889|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C63812|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C63812|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3006|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+34926318|expert_1|http://purl.obolibrary.org/obo/NCIT_C86729|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C13234|chemical
+37162940|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37162940|expert_1|http://purl.obolibrary.org/obo/NCBITaxon_1678|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/NCIT_C76352|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/NCIT_C4786|DDF|target|http://purl.obolibrary.org/obo/NCIT_C14225|human
+37162940|expert_1|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/NCBITaxon_1678|bacteria|influence|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37162940|expert_1|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|target|http://purl.obolibrary.org/obo/NCIT_C14225|human
+37162940|expert_1|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|target|http://purl.obolibrary.org/obo/NCIT_C14225|human
+37162940|expert_1|http://purl.obolibrary.org/obo/NCIT_C76352|bacteria|influence|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+37162940|expert_1|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C14225|human
+33446094|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C173641|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|http://purl.obolibrary.org/obo/NCIT_C189125|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/NCIT_C449|chemical|part of|http://purl.obolibrary.org/obo/NCIT_C13234|chemical
+33446094|expert_5|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|http://purl.obolibrary.org/obo/NCIT_C200884|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://id.nlm.nih.gov/mesh/D008571|human
+33446094|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C189125|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://w3id.org/hereditary/ontology/gutbrain/resource/H000001|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|https://uts.nlm.nih.gov/uts/umls/concept/C1328904|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|http://purl.obolibrary.org/obo/NCIT_C173641|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://snomed.info/id/225105004|biomedical technique
+33446094|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C200884|biomedical technique
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40120777|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_1508657|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C99230|dietary supplement|influence|http://id.nlm.nih.gov/mesh/68016923|DDF
+40120777|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCBITaxon_457483|biomedical technique
+40120777|expert_5|http://purl.obolibrary.org/obo/FOODON_03301585|food|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+40120777|expert_5|http://purl.obolibrary.org/obo/FOODON_03301585|food|influence|http://id.nlm.nih.gov/mesh/68016923|DDF
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40120777|expert_5|http://purl.obolibrary.org/obo/FOODON_03301585|food|influence|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+40120777|expert_5|http://purl.obolibrary.org/obo/NCIT_C86729|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40120777|expert_5|http://purl.obolibrary.org/obo/FOODON_03301585|food|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40120777|expert_5|http://purl.obolibrary.org/obo/OMIT_0026689|dietary supplement|influence|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+40042065|expert_5|http://purl.obolibrary.org/obo/CHEBI_64645|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C17741|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C12443|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C12623|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://id.nlm.nih.gov/mesh/D016874|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://id.nlm.nih.gov/mesh/D000084443|biomedical technique
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C94711|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://id.nlm.nih.gov/mesh/D005979|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C17741|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+40042065|expert_5|http://id.nlm.nih.gov/mesh/D013482|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000011|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C23018|biomedical technique
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C23011|biomedical technique
+40042065|expert_5|http://id.nlm.nih.gov/mesh/D001439|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000011|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C46083|DDF
+40042065|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C12444|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000011|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C17741|DDF
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C154782|biomedical technique
+40042065|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000011|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+40042065|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+40042065|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000011|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+40042065|expert_5|http://id.nlm.nih.gov/mesh/D000068536|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37802772|expert_2|http://purl.obolibrary.org/obo/NCIT_C91705|food|influence|http://purl.obolibrary.org/obo/NCIT_C50440|DDF
+37802772|expert_2|http://purl.obolibrary.org/obo/NCIT_C50440|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37802772|expert_2|http://purl.obolibrary.org/obo/CHEBI_53289|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37802772|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C50440|DDF
+40665707|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+40665707|expert_2|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+40665707|expert_2|http://id.nlm.nih.gov/mesh/D000090862|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+40665707|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D000090862|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C68408|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C210457|biomedical technique
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C210457|biomedical technique
+38261437|expert_2|http://purl.obolibrary.org/obo/CHEBI_25212|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C3235|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D009461|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C68408|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/CHEBI_81256|chemical|part of|http://purl.obolibrary.org/obo/CHEBI_22868|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|interact|http://purl.obolibrary.org/obo/CHEBI_28834|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|interact|http://purl.obolibrary.org/obo/CHEBI_22868|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|interact|http://purl.obolibrary.org/obo/CHEBI_26208|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|part of|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C68408|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/CHEBI_28834|chemical|part of|http://purl.obolibrary.org/obo/CHEBI_22868|chemical
+38261437|expert_2|http://id.nlm.nih.gov/mesh/D004888|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C68408|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3235|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_1937008|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C68408|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/CHEBI_25212|bacteria|influence|http://id.nlm.nih.gov/mesh/D009461|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_1937008|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38261437|expert_2|http://purl.obolibrary.org/obo/CHEBI_25212|bacteria|part of|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C68408|chemical|part of|http://purl.obolibrary.org/obo/CHEBI_26208|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCIT_C68361|chemical|part of|http://purl.obolibrary.org/obo/CHEBI_26208|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|interact|http://purl.obolibrary.org/obo/CHEBI_81256|chemical
+38261437|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C68361|chemical
+38840215|expert_2|http://purl.obolibrary.org/obo/CHEBI_50112|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C15222|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C62754|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/HP_0032245|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C15222|food|influence|http://purl.obolibrary.org/obo/NCIT_C3235|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/OMIT_0014267|chemical|interact|http://purl.obolibrary.org/obo/CHEBI_16646|chemical
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|https://uts.nlm.nih.gov/uts/umls/concept/C0178665|biomedical technique
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C34646|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+38840215|expert_2|http://purl.obolibrary.org/obo/HP_0032245|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C34646|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome|used by|https://uts.nlm.nih.gov/uts/umls/concept/C5848503|biomedical technique
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C15222|food|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/HP_0032245|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C4786|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|https://uts.nlm.nih.gov/uts/umls/concept/C5848503|biomedical technique
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2985|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/CHEBI_16646|chemical|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C15222|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C34646|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/OBI_0002065|biomedical technique
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C62754|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C14329|microbiome|used by|http://purl.obolibrary.org/obo/OBI_0002065|biomedical technique
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C26696|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+38840215|expert_2|http://purl.obolibrary.org/obo/HP_0032245|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2985|DDF
+38840215|expert_2|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C4786|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D019636|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C123795|chemical|impact|http://purl.obolibrary.org/obo/NCBITaxon_656892|bacteria
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C75652|chemical|influence|http://purl.obolibrary.org/obo/OMIT_0021091|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/OMIT_0021091|DDF|change abundance|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C75652|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C75652|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C35542|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C75652|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C84719|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C14182|animal
+34803581|expert_2|http://snomed.info/id/1149492007|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+34803581|expert_2|http://snomed.info/id/1149492007|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C14182|animal|used by|http://snomed.info/id/300380005|biomedical technique
+34803581|expert_2|http://purl.obolibrary.org/obo/OMIT_0021091|DDF|affect|http://snomed.info/id/1149492007|DDF
+34803581|expert_2|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C14182|animal
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C123795|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C14182|animal
+34803581|expert_2|http://purl.obolibrary.org/obo/OMIT_0021091|DDF|change abundance|http://purl.obolibrary.org/obo/NCBITaxon_656892|bacteria
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C75652|chemical|influence|http://id.nlm.nih.gov/mesh/D019636|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://snomed.info/id/1149492007|DDF
+34803581|expert_2|http://purl.obolibrary.org/obo/NCIT_C14182|animal|used by|http://purl.obolibrary.org/obo/NCIT_C51962|biomedical technique
+38542758|expert_2|http://id.nlm.nih.gov/mesh/D048249|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C46083|DDF
+38542758|expert_2|http://id.nlm.nih.gov/mesh/D048249|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C61911|chemical
+38542758|expert_2|http://id.nlm.nih.gov/mesh/D048249|bacteria|interact|http://purl.obolibrary.org/obo/CHEBI_52998|chemical
+38542758|expert_2|http://purl.obolibrary.org/obo/NCIT_C120865|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12444|anatomical location
+38542758|expert_2|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+38542758|expert_2|http://purl.obolibrary.org/obo/NCIT_C61911|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C120865|DDF
+38542758|expert_2|http://id.nlm.nih.gov/mesh/D048249|bacteria|part of|http://id.nlm.nih.gov/mesh/D000069196|microbiome
+38480804|expert_3|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38480804|expert_3|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://purl.obolibrary.org/obo/NCIT_C25190|human
+38480804|expert_3|http://purl.obolibrary.org/obo/CHEBI_29806|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38480804|expert_3|http://purl.obolibrary.org/obo/CHEBI_15740|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38480804|expert_3|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+38480804|expert_3|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|interact|http://purl.obolibrary.org/obo/CHEBI_15740|chemical
+38480804|expert_3|http://purl.obolibrary.org/obo/NCIT_C25190|human|used by|http://purl.obolibrary.org/obo/NCIT_C49019|biomedical technique
+38850348|expert_3|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C82342|DDF
+38850348|expert_3|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://id.nlm.nih.gov/mesh/D019636|DDF
+38850348|expert_3|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D019636|DDF
+38850348|expert_3|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C82342|DDF
+38850348|expert_3|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C82342|DDF
+38850348|expert_3|http://purl.obolibrary.org/obo/NCIT_C82342|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+38850348|expert_3|http://purl.obolibrary.org/obo/NCIT_C82342|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+37693595|expert_3|http://purl.obolibrary.org/obo/OMIT_0015462|DDF|change abundance|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+39998261|expert_4|http://purl.obolibrary.org/obo/CHEBI_52999|drug|administered|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://id.nlm.nih.gov/mesh/D000068717|drug|administered|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://purl.obolibrary.org/obo/NCBITaxon_2172|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://purl.obolibrary.org/obo/NCIT_C1702|drug|administered|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12438|anatomical location
+39998261|expert_4|http://purl.obolibrary.org/obo/NCIT_C174450|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12438|anatomical location
+39998261|expert_4|http://purl.obolibrary.org/obo/NCIT_C77862|drug|administered|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://purl.obolibrary.org/obo/NCIT_C74202|drug|administered|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://purl.obolibrary.org/obo/CHEBI_29806|chemical|administered|http://id.nlm.nih.gov/mesh/D010361|human
+39998261|expert_4|http://purl.obolibrary.org/obo/NCBITaxon_2172|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3243|DDF
+36417828|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+36417828|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C49019|biomedical technique
+36417828|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+36417828|expert_7|http://purl.obolibrary.org/obo/NCIT_C12443|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+36417828|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+36417828|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://purl.obolibrary.org/obo/OBI_0002763|biomedical technique
+36532064|expert_7|http://w3id.org/hereditary/ontology/gutbrain/resource/H000114|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+36532064|expert_7|http://purl.obolibrary.org/obo/NCIT_C16319|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+36532064|expert_7|http://id.nlm.nih.gov/mesh/D019636|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36532064|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2889|DDF
+36532064|expert_7|http://w3id.org/hereditary/ontology/gutbrain/resource/H000114|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+36532064|expert_7|http://purl.obolibrary.org/obo/NCIT_C3243|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36532064|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+36532064|expert_7|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36532064|expert_7|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36532064|expert_7|http://w3id.org/hereditary/ontology/gutbrain/resource/H000114|microbiome|compared to|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+37212075|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37212075|expert_5|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37212075|expert_5|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C39737|DDF
+37212075|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria|located in|http://id.nlm.nih.gov/mesh/D010361|human
+37212075|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|compared to|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome
+37212075|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C39737|DDF
+37212075|expert_5|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|used by|http://purl.obolibrary.org/obo/OBI_0002763|biomedical technique
+37212075|expert_5|http://id.nlm.nih.gov/mesh/D010361|human|used by|http://purl.obolibrary.org/obo/OBI_0002763|biomedical technique
+37212075|expert_5|http://id.nlm.nih.gov/mesh/D010361|human|used by|http://purl.obolibrary.org/obo/NCIT_C16585|biomedical technique
+37212075|expert_5|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+37212075|expert_5|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C16585|biomedical technique
+37577447|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+37577447|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://purl.obolibrary.org/obo/NCIT_C46109|human
+37577447|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C25190|human
+37577447|expert_5|http://id.nlm.nih.gov/mesh/D000069196|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C25190|human
+37577447|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+37577447|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://purl.obolibrary.org/obo/NCIT_C25190|human
+37577447|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C46109|human
+37577447|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|compared to|http://id.nlm.nih.gov/mesh/D000069196|microbiome
+37577447|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D000437|DDF
+37577447|expert_5|http://id.nlm.nih.gov/mesh/D000437|DDF|target|http://purl.obolibrary.org/obo/NCIT_C46109|human
+38203207|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/MONDO_0859292|DDF
+38203207|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+38203207|expert_5|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|is a|http://purl.obolibrary.org/obo/MONDO_0859292|DDF
+38203207|expert_5|http://purl.obolibrary.org/obo/NCIT_C97161|DDF|is a|http://purl.obolibrary.org/obo/MONDO_0859292|DDF
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_18243|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|is a|http://purl.obolibrary.org/obo/MONDO_0859292|DDF
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_22868|chemical|produced by|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/NCIT_C1115|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://id.nlm.nih.gov/mesh/D000458|bacteria|part of|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_16865|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_188286|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://id.nlm.nih.gov/mesh/D001421|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_26666|chemical|produced by|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_73493|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_28790|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_229980|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_18295|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_90022|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://purl.obolibrary.org/obo/CHEBI_172425|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38203207|expert_5|http://id.nlm.nih.gov/mesh/D000458|bacteria|influence|http://purl.obolibrary.org/obo/MONDO_0859292|DDF
+31530799|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C35041|DDF
+31530799|expert_2|http://purl.obolibrary.org/obo/NCIT_C76352|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31530799|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_33958|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31530799|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+31530799|expert_2|http://id.nlm.nih.gov/mesh/D047010|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31530799|expert_2|http://purl.obolibrary.org/obo/NCBITaxon_264995|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31530799|expert_2|http://purl.obolibrary.org/obo/CHEBI_26666|chemical|produced by|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31530799|expert_2|http://id.nlm.nih.gov/mesh/D056546|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38525261|expert_6|http://purl.obolibrary.org/obo/NCIT_C68492|dietary supplement|administered|http://purl.obolibrary.org/obo/NCIT_C25190|human
+38525261|expert_6|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|produced by|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+38525261|expert_6|http://purl.obolibrary.org/obo/NCIT_C68492|dietary supplement|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C70554|chemical|produced by|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C26835|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C1954|dietary supplement|impact|http://purl.obolibrary.org/obo/NCIT_C80324|bacteria
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C70554|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C39737|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12812|anatomical location
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C26835|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C26835|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C70554|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C26835|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C34423|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C26835|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C39737|DDF|affect|http://id.nlm.nih.gov/mesh/D060825|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C26835|DDF|affect|http://id.nlm.nih.gov/mesh/D060825|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C70554|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C26835|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C70554|chemical|part of|http://purl.obolibrary.org/obo/CHEBI_228264|chemical
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C26835|DDF|affect|https://uts.nlm.nih.gov/uts/umls/concept/C4061321|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C1954|dietary supplement|impact|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C97161|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C26835|DDF
+36978911|expert_5|http://purl.obolibrary.org/obo/NCIT_C70554|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C20701|DDF|affect|http://snomed.info/id/75864003|DDF
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C20701|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C20701|DDF|change abundance|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31610228|expert_5|http://id.nlm.nih.gov/mesh/D020560|bacteria|change expression|http://purl.obolibrary.org/obo/NCIT_C24507|gene
+31610228|expert_5|http://snomed.info/id/75864003|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C20701|DDF|target|http://id.nlm.nih.gov/mesh/D008571|human
+31610228|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C50928|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+31610228|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C20701|DDF
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C20464|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+31610228|expert_5|http://purl.obolibrary.org/obo/NCIT_C20701|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C176595|DDF
+31610228|expert_5|http://id.nlm.nih.gov/mesh/D020560|bacteria|change expression|http://purl.obolibrary.org/obo/NCIT_C20535|gene
+34560239|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34560239|expert_5|http://purl.obolibrary.org/obo/CHEBI_233275|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34560239|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_2005359|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C28143|animal
+34560239|expert_5|http://purl.obolibrary.org/obo/CHEBI_17963|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34560239|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34560239|expert_5|http://purl.obolibrary.org/obo/NCIT_C12382|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34560239|expert_5|http://purl.obolibrary.org/obo/NCIT_C12450|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34560239|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_2005359|bacteria|change expression|http://purl.obolibrary.org/obo/NCIT_C127894|gene
+34560239|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_2005359|bacteria|interact|http://purl.obolibrary.org/obo/NCIT_C61911|chemical
+30900006|expert_2|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+30900006|expert_2|http://purl.obolibrary.org/obo/NCIT_C258|drug|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+30900006|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+30900006|expert_2|http://purl.obolibrary.org/obo/NCIT_C258|drug|change expression|http://purl.obolibrary.org/obo/NCIT_C20194|gene
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0027553|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26756|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/NCIT_C2990|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26682|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0026689|dietary supplement|influence|http://purl.obolibrary.org/obo/OMIT_0027553|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/OMIT_0027553|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C21075|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2990|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0027553|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C78593|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26682|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3114|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/OMIT_0027553|DDF
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0027553|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+30309367|expert_5|http://purl.obolibrary.org/obo/OMIT_0027553|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C33969|anatomical location
+32041265|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C165593|DDF
+32041265|expert_7|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+32041265|expert_7|http://purl.obolibrary.org/obo/CHEBI_15781|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+32041265|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+32041265|expert_7|http://id.nlm.nih.gov/mesh/D000069196|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C4876|DDF
+32041265|expert_7|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+32041265|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+32041265|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C39737|DDF
+32041265|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+32041265|expert_7|http://id.nlm.nih.gov/mesh/D000069196|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+32041265|expert_7|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+32041265|expert_7|http://purl.obolibrary.org/obo/CHEBI_26666|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+32041265|expert_7|http://purl.obolibrary.org/obo/NCIT_C4876|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C1929|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+26923630|expert_7|http://snomed.info/id/1149492007|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_28669|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_7507|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://w3id.org/hereditary/ontology/gutbrain/resource/H000137|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://w3id.org/hereditary/ontology/gutbrain/resource/H000088|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12382|anatomical location
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_80201|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|affect|http://snomed.info/id/1149492007|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C46083|DDF|interact|http://purl.obolibrary.org/obo/NCIT_C1929|chemical
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C12382|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C258|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C239|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C13194|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://w3id.org/hereditary/ontology/gutbrain/resource/H000115|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_80201|chemical|influence|http://w3id.org/hereditary/ontology/gutbrain/resource/H000137|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_43968|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://purl.obolibrary.org/obo/NCIT_C925|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+26923630|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://w3id.org/hereditary/ontology/gutbrain/resource/H000088|DDF
+26923630|expert_7|http://purl.obolibrary.org/obo/CHEBI_25212|chemical|influence|http://w3id.org/hereditary/ontology/gutbrain/resource/H000137|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C86478|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C86478|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/CHEBI_49318|drug|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C86478|dietary supplement|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C86478|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C12444|anatomical location|located in|http://w3id.org/hereditary/ontology/gutbrain/resource/H000121|animal
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C239|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C86478|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C118457|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12444|anatomical location
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://id.nlm.nih.gov/mesh/D000084443|biomedical technique
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://id.nlm.nih.gov/mesh/D000082564|biomedical technique
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C2893|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+25869281|expert_7|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12382|anatomical location
+33271426|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+33271426|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2878|DDF
+33271426|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+33271426|expert_7|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C2991|DDF|target|http://id.nlm.nih.gov/mesh/D055647|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C40185|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C258|drug|change effect|http://snomed.info/id/1149492007|DDF
+37403161|expert_5|http://purl.obolibrary.org/obo/HP_4000055|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C49240|anatomical location
+37403161|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|target|http://id.nlm.nih.gov/mesh/D055647|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C258|drug|interact|http://purl.obolibrary.org/obo/CHEBI_26666|chemical
+37403161|expert_5|http://snomed.info/id/1149492007|DDF|interact|http://purl.obolibrary.org/obo/CHEBI_82933|chemical
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C86870|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C258|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37403161|expert_5|http://snomed.info/id/14450001000004103|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C258|drug|impact|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C28401|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C76352|bacteria|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37403161|expert_5|http://purl.obolibrary.org/obo/HP_4000055|DDF|target|http://id.nlm.nih.gov/mesh/D055647|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/NCIT_C25584|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37403161|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+37403161|expert_5|http://id.nlm.nih.gov/mesh/C497605|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+38613087|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000091|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+38613087|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000091|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C93187|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|influence|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/NCIT_C26696|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C93187|DDF
+38613087|expert_5|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+33968794|expert_7|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+33968794|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+33968794|expert_7|http://snomed.info/id/1149492007|DDF|affect|https://uts.nlm.nih.gov/uts/umls/concept/C5394401|DDF
+33968794|expert_7|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+33968794|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C17741|DDF
+33968794|expert_7|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+33968794|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C12438|DDF
+32999308|expert_7|http://purl.obolibrary.org/obo/CHEBI_30795|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C12510|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C105971|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C104716|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C104716|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C20482|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|strike|http://purl.obolibrary.org/obo/NCIT_C34082|anatomical location
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C104716|chemical|impact|http://purl.obolibrary.org/obo/NCBITaxon_28138|bacteria
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C37930|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C104716|chemical|impact|http://purl.obolibrary.org/obo/NCIT_C86870|bacteria
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C104716|chemical|impact|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+32999308|expert_7|http://purl.obolibrary.org/obo/NCIT_C37930|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+34480631|expert_7|http://purl.obolibrary.org/obo/NCIT_C154779|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34480631|expert_7|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34480631|expert_7|http://purl.obolibrary.org/obo/CHEBI_230497|drug|interact|http://purl.obolibrary.org/obo/CHEBI_42111|chemical
+34480631|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34480631|expert_7|http://purl.obolibrary.org/obo/CHEBI_230497|drug|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34480631|expert_7|http://purl.obolibrary.org/obo/CHEBI_230497|drug|change effect|http://w3id.org/hereditary/ontology/gutbrain/resource/H000088|DDF
+34480631|expert_7|http://purl.obolibrary.org/obo/CHEBI_230497|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34480631|expert_7|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|located in|http://w3id.org/hereditary/ontology/gutbrain/resource/H000121|animal
+34480631|expert_7|http://purl.obolibrary.org/obo/CHEBI_230497|drug|impact|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome
+34480631|expert_7|http://w3id.org/hereditary/ontology/gutbrain/resource/H000088|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34480631|expert_7|http://purl.obolibrary.org/obo/NCIT_C12444|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+32438623|expert_7|http://purl.obolibrary.org/obo/NCIT_C413|food|impact|http://purl.obolibrary.org/obo/NCIT_C76352|bacteria
+32438623|expert_7|http://purl.obolibrary.org/obo/NCIT_C188111|food|administered|http://purl.obolibrary.org/obo/NCIT_C29867|human
+32438623|expert_7|http://purl.obolibrary.org/obo/NCIT_C29867|human|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+32438623|expert_7|http://purl.obolibrary.org/obo/NCIT_C26696|DDF|target|http://purl.obolibrary.org/obo/NCIT_C29867|human
+32438623|expert_7|http://purl.obolibrary.org/obo/NCIT_C188111|food|impact|http://purl.obolibrary.org/obo/NCIT_C76352|bacteria
+32438623|expert_7|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+32438623|expert_7|http://purl.obolibrary.org/obo/NCIT_C413|food|administered|http://purl.obolibrary.org/obo/NCIT_C29867|human
+31662903|expert_7|http://purl.obolibrary.org/obo/NCIT_C34858|DDF|target|http://purl.obolibrary.org/obo/NCIT_C49651|human
+31662903|expert_7|http://purl.obolibrary.org/obo/CHEBI_30772|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C113101|DDF
+31662903|expert_7|http://purl.obolibrary.org/obo/NCIT_C3283|DDF|change abundance|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31662903|expert_7|https://uts.nlm.nih.gov/uts/umls/concept/C0260274|food|administered|http://id.nlm.nih.gov/mesh/D000328|human
+31662903|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C49651|human
+31662903|expert_7|http://purl.obolibrary.org/obo/CHEBI_30772|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C80385|DDF
+31662903|expert_7|https://uts.nlm.nih.gov/uts/umls/concept/C0260274|food|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+31662903|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://w3id.org/hereditary/ontology/gutbrain/resource/H000165|biomedical technique
+31662903|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D014930|human
+31662903|expert_7|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D008571|human
+31662903|expert_7|https://uts.nlm.nih.gov/uts/umls/concept/C0260274|food|impact|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+30405455|expert_7|http://purl.obolibrary.org/obo/NCIT_C258|drug|administered|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+30405455|expert_7|http://purl.obolibrary.org/obo/NCIT_C2893|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+30405455|expert_7|http://purl.obolibrary.org/obo/CHEBI_81571|chemical|influence|http://purl.obolibrary.org/obo/OMIT_0005141|DDF
+30405455|expert_7|http://purl.obolibrary.org/obo/CHEBI_75431|chemical|influence|http://purl.obolibrary.org/obo/OMIT_0005141|DDF
+30405455|expert_7|http://purl.obolibrary.org/obo/CHEBI_75431|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+30405455|expert_7|http://purl.obolibrary.org/obo/NCIT_C84442|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+30405455|expert_7|http://purl.obolibrary.org/obo/OMIT_0005141|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+30405455|expert_7|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+30405455|expert_7|http://purl.obolibrary.org/obo/CHEBI_81571|chemical|located in|http://id.nlm.nih.gov/mesh/D010361|human
+34290352|expert_2|http://purl.obolibrary.org/obo/CHEBI_36791|drug|administered|http://id.nlm.nih.gov/mesh/D011153|human
+34290352|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+34290352|expert_2|http://id.nlm.nih.gov/mesh/D000069196|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+34290352|expert_2|http://purl.obolibrary.org/obo/NCIT_C265|drug|impact|http://id.nlm.nih.gov/mesh/D000069196|microbiome
+34290352|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+34290352|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+34290352|expert_2|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+34290352|expert_2|http://purl.obolibrary.org/obo/NCIT_C94725|drug|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+37676767|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+37676767|expert_5|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+37676767|expert_5|http://purl.obolibrary.org/obo/NCIT_C52709|chemical|influence|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+37676767|expert_5|https://uts.nlm.nih.gov/uts/umls/concept/C0871712|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37676767|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000103|chemical|impact|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+37676767|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37676767|expert_5|http://purl.obolibrary.org/obo/CHEBI_76969|chemical|impact|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+37676767|expert_5|http://w3id.org/hereditary/ontology/gutbrain/resource/H000103|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37676767|expert_5|http://snomed.info/id/1149492007|DDF|is a|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+37676767|expert_5|http://purl.obolibrary.org/obo/CHEBI_76969|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C2990|DDF
+37676767|expert_5|http://purl.obolibrary.org/obo/NCIT_C52709|chemical|influence|http://snomed.info/id/1149492007|DDF
+37676767|expert_5|http://purl.obolibrary.org/obo/CHEBI_76969|chemical|part of|http://purl.obolibrary.org/obo/CHEBI_36080|chemical
+37676767|expert_5|http://purl.obolibrary.org/obo/HP_0002529|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37676767|expert_5|http://id.nlm.nih.gov/mesh/C000722498|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37676767|expert_5|https://uts.nlm.nih.gov/uts/umls/concept/C0871712|DDF|change abundance|http://purl.obolibrary.org/obo/NCBITaxon_2|bacteria
+37676767|expert_5|http://purl.obolibrary.org/obo/NCIT_C116600|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+25911232|expert_2|http://purl.obolibrary.org/obo/NCIT_C92200|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+25911232|expert_2|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+25911232|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3283|DDF
+25911232|expert_2|http://purl.obolibrary.org/obo/NCIT_C2890|DDF|target|http://purl.obolibrary.org/obo/NCIT_C14182|animal
+25911232|expert_2|http://purl.obolibrary.org/obo/NCIT_C97161|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+33195226|expert_4|http://id.nlm.nih.gov/mesh/D001439|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3362|DDF
+33195226|expert_4|https://uts.nlm.nih.gov/uts/umls/concept/C0262405|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3362|DDF
+33195226|expert_4|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|change abundance|http://purl.obolibrary.org/obo/NCBITaxon_174708|bacteria
+33195226|expert_4|http://id.nlm.nih.gov/mesh/D000068016|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3362|DDF
+33195226|expert_4|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+33195226|expert_4|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C3362|DDF
+33195226|expert_4|http://id.nlm.nih.gov/mesh/D004888|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C3362|DDF
+33195226|expert_4|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|change abundance|http://purl.obolibrary.org/obo/NCBITaxon_128827|bacteria
+33195226|expert_4|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+33195226|expert_4|http://purl.obolibrary.org/obo/NCIT_C3362|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+28716445|expert_2|http://purl.obolibrary.org/obo/NCIT_C2893|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+28716445|expert_2|http://purl.obolibrary.org/obo/NCIT_C34387|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+28716445|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+28716445|expert_2|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+28716445|expert_2|http://purl.obolibrary.org/obo/NCIT_C93144|dietary supplement|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+28716445|expert_2|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+32389857|expert_2|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|change abundance|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+32389857|expert_2|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+32389857|expert_2|http://purl.obolibrary.org/obo/NCIT_C459|drug|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+32389857|expert_2|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|change abundance|http://purl.obolibrary.org/obo/NCIT_C93019|microbiome
+32389857|expert_2|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+33777957|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCBITaxon_9989|animal
+33777957|expert_2|http://purl.obolibrary.org/obo/NCIT_C26696|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+33777957|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+33777957|expert_2|http://purl.obolibrary.org/obo/NCIT_C26696|DDF|change abundance|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+33777957|expert_2|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|change abundance|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+33777957|expert_2|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+33777957|expert_2|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+34205336|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+34205336|expert_5|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+34205336|expert_5|http://id.nlm.nih.gov/mesh/D019636|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+34205336|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://id.nlm.nih.gov/mesh/D019636|DDF
+34205336|expert_5|http://purl.obolibrary.org/obo/NCIT_C12623|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+34205336|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+34205336|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26835|DDF
+34205336|expert_5|http://purl.obolibrary.org/obo/NCIT_C12623|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34205336|expert_5|http://purl.obolibrary.org/obo/NCIT_C12623|chemical|impact|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C163951|chemical|interact|http://purl.obolibrary.org/obo/NCIT_C29570|chemical
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C13018|anatomical location|located in|http://id.nlm.nih.gov/mesh/D010361|human
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C121275|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C163951|chemical|impact|http://purl.obolibrary.org/obo/NCBITaxon_119852|bacteria
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C265|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C124639|DDF
+28556833|expert_5|http://purl.obolibrary.org/obo/CHEBI_52998|chemical|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+28556833|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C163951|chemical|interact|http://purl.obolibrary.org/obo/NCIT_C20158|chemical
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C163951|chemical|interact|http://purl.obolibrary.org/obo/CHEBI_3254|chemical
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C163951|chemical|influence|http://purl.obolibrary.org/obo/NCIT_C121275|DDF
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C20158|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+28556833|expert_5|http://purl.obolibrary.org/obo/CHEBI_52998|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C13018|anatomical location
+28556833|expert_5|http://purl.obolibrary.org/obo/CHEBI_3254|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C163951|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C29570|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C12439|anatomical location
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+28556833|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+28556833|expert_5|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|target|http://snomed.info/id/103309006|human
+35674870|expert_5|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF|affect|http://id.nlm.nih.gov/mesh/D000090862|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C62344|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|http://id.nlm.nih.gov/mesh/D000090862|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C94372|DDF
+35674870|expert_5|http://id.nlm.nih.gov/mesh/D000090862|DDF|target|http://snomed.info/id/103309006|human
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C45524|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D000090862|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/CHEBI_67079|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C45524|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C26845|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+35674870|expert_5|http://id.nlm.nih.gov/mesh/D000090862|DDF|affect|http://id.nlm.nih.gov/mesh/D028361|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/NCIT_C62344|DDF|is a|http://purl.obolibrary.org/obo/OMIT_0028544|DDF
+35674870|expert_5|http://id.nlm.nih.gov/mesh/D000090862|DDF|affect|https://uts.nlm.nih.gov/uts/umls/concept/C1395088|DDF
+35674870|expert_5|http://purl.obolibrary.org/obo/OHMI_0000020|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+35674870|expert_5|http://id.nlm.nih.gov/mesh/D000090862|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26845|DDF
+37071196|expert_5|http://id.nlm.nih.gov/mesh/D018720|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C86729|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+37071196|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C34927|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C34927|DDF|target|http://purl.obolibrary.org/obo/NCIT_C42708|human
+37071196|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C42708|human
+37071196|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_1486939|bacteria|influence|http://purl.obolibrary.org/obo/NCIT_C34927|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C42708|human|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+37071196|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_216851|bacteria|influence|http://purl.obolibrary.org/obo/OMIT_0002889|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2991|DDF
+37071196|expert_5|http://id.nlm.nih.gov/mesh/D018720|bacteria|influence|http://purl.obolibrary.org/obo/OMIT_0002889|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/NCBITaxon_1486939|bacteria|influence|http://purl.obolibrary.org/obo/OMIT_0002889|DDF
+37071196|expert_5|http://id.nlm.nih.gov/mesh/D001439|bacteria|part of|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C2991|DDF|target|http://purl.obolibrary.org/obo/NCIT_C42708|human
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C34927|DDF|target|http://id.nlm.nih.gov/mesh/D000293|human
+37071196|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C34927|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|used by|http://purl.obolibrary.org/obo/NCIT_C192768|biomedical technique
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C34927|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+37071196|expert_5|http://purl.obolibrary.org/obo/NCIT_C2991|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2893|DDF
+37849234|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+37849234|expert_5|http://purl.obolibrary.org/obo/CHEBI_86264|chemical|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+37849234|expert_5|http://purl.obolibrary.org/obo/OMIT_0028544|DDF|change abundance|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+37849234|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C28143|human
+37849234|expert_5|http://purl.obolibrary.org/obo/NCIT_C2893|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C2866|DDF
+37849234|expert_5|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://id.nlm.nih.gov/mesh/D010361|human
+37849234|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+37849234|expert_5|http://purl.obolibrary.org/obo/NCIT_C37940|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+37849234|expert_5|http://purl.obolibrary.org/obo/NCIT_C2866|DDF|is a|http://purl.obolibrary.org/obo/NCIT_C39737|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+33963281|expert_6|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C92196|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0013780|DDF|is a|https://uts.nlm.nih.gov/uts/umls/concept/C0235161|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C20151|DDF|target|http://purl.obolibrary.org/obo/NCBITaxon_9605|human
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://id.nlm.nih.gov/mesh/D000090862|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0013780|DDF|affect|http://w3id.org/hereditary/ontology/gutbrain/resource/H000137|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0013780|DDF
+33963281|expert_6|http://id.nlm.nih.gov/mesh/D000090862|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C116921|DDF|target|http://purl.obolibrary.org/obo/NCBITaxon_9605|human
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D000090862|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C20151|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0013780|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0013780|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C116921|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0013780|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C92196|DDF|affect|https://uts.nlm.nih.gov/uts/umls/concept/C0235161|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C103850|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|is linked to|http://purl.obolibrary.org/obo/NCIT_C20151|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0013780|DDF
+33963281|expert_6|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/OMIT_0013780|DDF
+33963281|expert_6|http://purl.obolibrary.org/obo/OMIT_0013780|DDF|target|http://purl.obolibrary.org/obo/NCBITaxon_9605|human
+36804535|expert_3|http://purl.obolibrary.org/obo/HP_0004349|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36804535|expert_3|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|affect|http://purl.obolibrary.org/obo/HP_0004349|DDF
+36804535|expert_3|https://uts.nlm.nih.gov/uts/umls/concept/C5940914|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C3673|DDF
+36804535|expert_3|http://purl.obolibrary.org/obo/HP_0004349|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+36804535|expert_3|http://purl.obolibrary.org/obo/NCIT_C3673|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+36804535|expert_3|http://purl.obolibrary.org/obo/NCIT_C124639|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+36804535|expert_3|http://purl.obolibrary.org/obo/NCIT_C45247|animal|used by|http://purl.obolibrary.org/obo/NCIT_C121275|biomedical technique
+36804535|expert_3|https://uts.nlm.nih.gov/uts/umls/concept/C5940914|drug|change effect|http://purl.obolibrary.org/obo/HP_0004349|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/NCIT_C50750|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|impact|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C50750|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+34174901|expert_6|http://snomed.info/id/1149492007|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C26696|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/NCIT_C3137|DDF|affect|http://purl.obolibrary.org/obo/NCIT_C50750|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|change effect|https://uts.nlm.nih.gov/uts/umls/concept/C1840264|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/OMIT_0028418|microbiome|located in|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34174901|expert_6|http://purl.obolibrary.org/obo/OMIT_0028827|DDF|target|http://purl.obolibrary.org/obo/NCIT_C45247|animal
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C12438|DDF
+34174901|expert_6|http://purl.obolibrary.org/obo/CHEBI_50694|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C161518|DDF
+33327540|expert_5|http://purl.obolibrary.org/obo/NCIT_C265|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C2878|DDF
+33327540|expert_5|http://purl.obolibrary.org/obo/CHEBI_22720|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C2878|DDF
+33327540|expert_5|http://purl.obolibrary.org/obo/NCIT_C178186|food|influence|http://purl.obolibrary.org/obo/NCIT_C2878|DDF
+33327540|expert_5|http://purl.obolibrary.org/obo/NCIT_C2878|DDF|target|http://id.nlm.nih.gov/mesh/D010361|human
+33327540|expert_5|http://purl.obolibrary.org/obo/NCIT_C129717|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C2878|DDF
+25940667|expert_4|http://purl.obolibrary.org/obo/NCIT_C258|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+25940667|expert_4|http://purl.obolibrary.org/obo/NCIT_C923|drug|change effect|http://purl.obolibrary.org/obo/NCIT_C3137|DDF
+25940667|expert_4|http://w3id.org/hereditary/ontology/gutbrain/resource/H000124|microbiome|is linked to|http://id.nlm.nih.gov/mesh/D000073296|DDF

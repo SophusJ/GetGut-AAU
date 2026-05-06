@@ -6,9 +6,7 @@ from datetime import datetime
 from gliner import GLiNER
 from types import SimpleNamespace
 
-# ==========================================
-# 1. SETUP & LOGGING
-# ==========================================
+#Setup logging for debugging.
 log_dir = "./gliner_biomed_logs"
 os.makedirs(log_dir, exist_ok=True)
 
@@ -28,14 +26,15 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
+
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
-OUTPUT_ROOT = "./gliner_biomed_funnel_40gb"
+OUTPUT_ROOT = os.path.join(PROJECT_ROOT, "Predictions", "NER")
 os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
 logger.info(f"Device: {DEVICE}")
 logger.info(f"Output root: {OUTPUT_ROOT}")
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 train_root = os.path.join(PROJECT_ROOT, "Annotations", "Train", "json_format")
 dev_path = os.path.join(PROJECT_ROOT, "Annotations", "Dev", "json_format", "dev.json")
 
@@ -45,7 +44,7 @@ ENTITY_TYPES = [
     "chemical", "dietary supplement", "ddf", "drug", "food", 
     "gene", "human", "microbiome", "statistical technique"
 ]
-
+# Funnel setup with more granular stages and specific training steps per stage
 STAGES = [
     ("bronze", os.path.join(train_root, "train_bronze.json"), 1000),
     ("silver2025", os.path.join(train_root, "train_silver_2025.json"), 1500),
@@ -53,12 +52,8 @@ STAGES = [
     ("gold", os.path.join(train_root, "train_gold.json"), 3000),
 ]
 
-# ==========================================
-# 2. ROBUST PREPROCESSING
-# ==========================================
-
+#Helper function to process the JSON data into sentence-level instances with entity annotations.
 def preprocess_data(path):
-    """Convert GETGUT annotations to GLiNER format with proper tokenization."""
     import re
     
     logger.debug(f"Starting preprocessing of {path}")
@@ -122,12 +117,10 @@ def preprocess_data(path):
     logger.info(f"Successfully loaded {len(dataset)} samples from {os.path.basename(path)}")
     return dataset
 
-# ==========================================
-# 3. TRAINING FUNCTION
-# ==========================================
 
+# Training function
 def train_biomed(model, config, train_data, eval_data, stage_name):
-    """Train GLiNER model using the built-in train_model API with CUDA support."""
+
     output_dir = os.path.join(OUTPUT_ROOT, stage_name, "checkpoints")
     os.makedirs(output_dir, exist_ok=True)
     
@@ -144,7 +137,7 @@ def train_biomed(model, config, train_data, eval_data, stage_name):
     logger.info(f"{'='*80}")
 
     # Create training arguments using GLiNER's built-in method
-    logger.info(f"[{stage_name}] Creating training arguments...")
+    logger.info(f"[{stage_name}] Creating training arguments.")
     training_args = model.create_training_args(
         output_dir=output_dir,
         learning_rate=config.lr_encoder,
@@ -156,13 +149,13 @@ def train_biomed(model, config, train_data, eval_data, stage_name):
         save_steps=config.eval_every,
         logging_steps=config.eval_every,
         save_total_limit=3,
-        use_cpu=(DEVICE == 'cpu'),  # Enable CUDA if available
+        use_cpu=(DEVICE == 'cpu'),
         report_to='none'
     )
     logger.info(f"[{stage_name}] Training arguments created")
 
     # Train using GLiNER's train_model API
-    logger.info(f"[{stage_name}] Starting training...")
+    logger.info(f"[{stage_name}] Starting training.")
     try:
         trainer = model.train_model(
             train_dataset=train_data,
@@ -186,10 +179,7 @@ def train_biomed(model, config, train_data, eval_data, stage_name):
 
     return best_model_path
 
-# ==========================================
-# 4. MAIN
-# ==========================================
-
+# MAIN SCRIPT STARTS HERE
 def main():
     logger.info("="*80)
     logger.info("GLINER BIOMED FUNNEL TRAINING PIPELINE")
@@ -214,18 +204,18 @@ def main():
     )
     logger.info(f"Configuration: eval_every={config.eval_every}, batch_size={config.train_batch_size}, warmup_ratio={config.warmup_ratio}")
 
-    logger.info(f"Starting pipeline with {len(STAGES)} stages...")
+    logger.info(f"Starting pipeline with {len(STAGES)} stages.")
     stage_results = []
 
     for idx, (name, path, steps) in enumerate(STAGES, 1):
         logger.info(f"\nProcessing stage {idx}/{len(STAGES)}: {name}")
         logger.info(f"Training data path: {path}")
 
-        logger.info(f"[{name}] Preprocessing training dataset...")
+        logger.info(f"[{name}] Preprocessing training dataset")
         train_samples = preprocess_data(path)
         logger.info(f"[{name}] Training dataset loaded: {len(train_samples)} samples")
 
-        # Override steps for this specific stage
+        # Override steps for specifc stages
         config.num_steps = steps
         
         best_path = train_biomed(model, config, train_samples, eval_samples, name)
@@ -244,7 +234,7 @@ def main():
         })
 
         # Reload the best performing version before moving to next stage
-        logger.info(f"[{name}] Reloading best model for next funnel step...")
+        logger.info(f"[{name}] Reloading best model for next funnel step.")
         model = GLiNER.from_pretrained(best_path)
         logger.info(f"[{name}] Model reloaded successfully")
 

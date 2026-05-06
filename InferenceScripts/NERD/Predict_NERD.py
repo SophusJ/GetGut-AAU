@@ -9,31 +9,24 @@ from sentence_transformers import SentenceTransformer, util
 nltk.download('punkt', quiet=True)
 from nltk.tokenize import sent_tokenize
 
-# --- 1. LOAD MODEL ---
-models_root = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
+#LOAD MODEL
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_root = os.path.dirname(os.path.dirname(script_dir))
+models_root = os.path.join(repo_root, "Models", "NERD_CRE")
 model_path = os.path.join(models_root, "SapBERT-from-PubMedBERT-fulltext")
 
-print("Loading SapBERT model...")
+print("Loading SapBERT model.")
 model = SentenceTransformer(model_path)
 model.max_seq_length = 128
 
-# --- 2. LOAD SAVED CONTEXTUAL DICTIONARY ---
-print("Loading saved contextual vectors and metadata...")
-repo_root = Path(__file__).parent.parent
-dictionary_dir = repo_root / "dictionary_vectors"
-vector_candidates = [
-    dictionary_dir / "sapbert_contextual_vectors_best.pt",
-    repo_root / "sapbert_contextual_vectors_best.pt",
-    Path(__file__).parent / "sapbert_contextual_vectors_best.pt",
-]
-mapping_candidates = [
-    dictionary_dir / "sapbert_contextual_mapping_best.json",
-    repo_root / "sapbert_contextual_mapping_best.json",
-    Path(__file__).parent / "sapbert_contextual_mapping_best.json",
-]
+# LOAD THE DICTIONARIES
+print("Loading saved contextual vectors and metadata.")
+vector_candidates = os.path.join(repo_root, "Utils", "sapbert_contextual_vectors_best.pt")
+mapping_candidates = os.path.join(repo_root, "Utils", "sapbert_contextual_mapping_best.json")
 
-vectors_path = next((p for p in vector_candidates if p.exists()), None)
-mapping_path = next((p for p in mapping_candidates if p.exists()), None)
+# ERROR HANDLING FOR DICTIONARY FILES
+vectors_path = vector_candidates if os.path.isfile(vector_candidates) else None
+mapping_path = mapping_candidates if os.path.isfile(mapping_candidates) else None
 
 if vectors_path is None or mapping_path is None:
     raise FileNotFoundError(
@@ -42,8 +35,10 @@ if vectors_path is None or mapping_path is None:
         f"mapping: {[str(p) for p in mapping_candidates]}"
     )
 
+# LOAD THE DICTIONARY VECTORS AND MAPPING
 dictionary_vectors = torch.load(vectors_path, weights_only=True)
 
+# LOAD MAPPING OF CONTEXTS AND URIS
 with open(mapping_path, "r", encoding="utf-8") as f:
     metadata = json.load(f)
     dict_contexts = metadata["contexts"]
@@ -52,10 +47,11 @@ with open(mapping_path, "r", encoding="utf-8") as f:
 print(f"Using vectors: {vectors_path}")
 print(f"Using mapping: {mapping_path}")
 
+
 print(f"Loaded {len(dict_contexts)} dictionary entries.")
 
-# --- 2b. EXTRACT AND ENCODE SPAN-ONLY VECTORS ---
-print("\nExtracting span-only portions from dictionary contexts...")
+# EXTRACT SPAN-ONLY PORTIONS FROM DICTIONARY CONTEXTS USING [SEP] AS DELIMITER
+print("\nExtracting span-only portions from dictionary contexts.")
 dict_spans = []
 for context in dict_contexts:
     # Split on [SEP] and take only the part before it
@@ -64,21 +60,20 @@ for context in dict_contexts:
     else:
         span = context
     dict_spans.append(span)
-
-print("Encoding span-only dictionary vectors...")
+# ENCODE THE DICTIONARY SPANS
 dict_span_vectors = model.encode(dict_spans, convert_to_tensor=True, show_progress_bar=True)
 
-# --- 3. LOAD INPUT JSON ---
-input_file = repo_root / "dev_predictions_nerd.json"
-print(f"\nLoading {input_file}...")
+# LOAD THE NER PREDICTIONS FROM THE PREVIOUS STEP
+input_file = os.path.join(repo_root, "Predictions", "NER", "predictions_for_NERD_MRE.json")
+print(f"\nLoading {input_file}.")
 
 with open(input_file, "r", encoding="utf-8") as f:
     input_data = json.load(f)
 
-# --- 4. PREDICT URIS FOR EACH ENTITY ---
+#PREDICT URIs FOR EACH ENTITY BASED ON HYBRID SIMILARITY OF SPAN-ONLY AND CONTEXTUAL VECTORS
 predictions = {}
 
-print("Predicting URIs for entities...")
+print("Predicting URIs for entities.")
 total_entities = 0
 
 for doc_id, document in input_data.items():
@@ -114,16 +109,16 @@ for doc_id, document in input_data.items():
                 span_scores = util.cos_sim(span_vector, dict_span_vectors)[0]
                 context_scores = util.cos_sim(context_vector, dictionary_vectors)[0]
                 
-                # Hybrid scoring (weighted combination)
+                # Hybrid scoring
                 weight_context = 0.15
                 weight_span = 0.85
                 hybrid_scores = weight_context * context_scores + weight_span * span_scores
                 
-                # Get top-1 match
+                # Get best result
                 best_score, best_idx = hybrid_scores.topk(1)
                 predicted_uri = dict_uris[best_idx[0].item()]
                 
-                # Create entity entry with only essential fields (no metadata)
+                # Create entity entry with only essential fields
                 entity_with_prediction = {
                     "start_idx": entity.get("start_idx"),
                     "end_idx": entity.get("end_idx"),
@@ -135,12 +130,11 @@ for doc_id, document in input_data.items():
                 
                 predictions[doc_id]["entities"].append(entity_with_prediction)
 
-# --- 5. SAVE PREDICTIONS TO JSON ---
-output_file = repo_root / "NERD_Predictions.json"
-print(f"\nSaving predictions to {output_file}...")
+#SAVE PREDICTIONS TO JSON
+output_file = os.path.join(repo_root, "Predictions", "NERD", "GetGut@AAU_T612_runID.json")
+print(f"\nSaving predictions to {output_file}.")
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(predictions, f, indent=2, ensure_ascii=False)
 
-print(f"✓ Done! Predicted URIs for {total_entities} entities.")
 print(f"Output saved to: {output_file}")

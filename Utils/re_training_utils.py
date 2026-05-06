@@ -4,7 +4,7 @@ from typing import Any, Dict, List, Tuple
 
 from datasets import Dataset, concatenate_datasets
 
-from BuildPURESentenceLevelRE import (
+from build_sentence_instances import (
     build_relation_lookup,
     build_re_dataset,
     build_sentence_instances,

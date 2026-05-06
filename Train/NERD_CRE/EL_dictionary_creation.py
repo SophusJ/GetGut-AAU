@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import torch
 from sentence_transformers import SentenceTransformer, util
-from BuildPURESentenceLevelRE import build_sentence_instances
+from ...Utils.build_sentence_instances import build_sentence_instances
 import os
 
 models_root = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
@@ -12,12 +12,12 @@ repo_root = os.path.dirname(os.path.dirname(__file__))
 dictionary_dir = os.path.join(repo_root, "dictionary_vectors")
 os.makedirs(dictionary_dir, exist_ok=True)
 
-print("Loading base SapBERT model...")
+print("Loading base SapBERT model.")
 model = SentenceTransformer(model_path)
 
 
 json_files = [
-    #os.path.join(train_data_root, "train_bronze.json"),
+    #os.path.join(train_data_root, "train_bronze.json"), #OMMITTED THIS AS BETTER RESULTS ARE SEEN WITHOUT IT FOR THE DICTIONARIES
     os.path.join(train_data_root, "train_silver.json"),
     os.path.join(train_data_root, "train_gold.json"),
     os.path.join(train_data_root, "train_silver_2025.json"),
@@ -47,47 +47,10 @@ for file_path in json_files:
 
 ## SPLIT THE DOCUMENTS INTO SENTENCE-LEVEL INSTANCES WITH ENTITY ANNOTATIONS
 instances = build_sentence_instances(combined_documents)
-## LOOKS LIKE THIS:
-"""
-    For each document, split into sentence-level instances enriched with gold entities.
-    
-    Handles entities that span multiple sentences by including them in each sentence they touch.
-    
-    Structure:
-    {
-        doc_id: {
-            "metadata": {...},
-            "sections": {
-                "title": [
-                    {
-                        "sent_idx": 0,
-                        "sent_start": 0,
-                        "sent_end": 25,
-                        "sent_text": "...",
-                        "entities": [
-                            {
-                                "start_idx": 0,
-                                "end_idx": 5,
-                                "label": "...",
-                                "text_span": "...",
-                                "uri": "...",
-                                "sent_offset_start": 0,
-                                "sent_offset_end": 5,
-                                "spans_sentences": bool,  # True if entity crosses sentence boundary
-                                "entity_sentences": [sent_idx, ...]  # All sentences this entity appears in
-                            }
-                        ]
-                    }
-                ],
-                "abstract": [...]
-            }
-        }
-    }
-    """
 
 extracted_pairs = []
 
-print("Extracting Span+Sentence pairs from pre-parsed instances...")
+print("Extracting Span+Sentence pairs.")
 
 # Loop through each document
 for doc_id, doc_data in instances.items():
@@ -128,13 +91,11 @@ unique_dictionary = freq_df.drop_duplicates(subset=["context_string"], keep="fir
 dict_contexts = unique_dictionary["context_string"].tolist()
 dict_uris = unique_dictionary["uri"].tolist()
 
-print(f"Dictionary {len(dict_contexts)} has unique Span+Context pairs!")
-
 # ENCODE THE CONTEXT STRINGS INTO VECTORS
-print("Encoding Contextual Strings into vectors...")
+print("Encoding Contextual Strings into vectors.")
 dictionary_vectors = model.encode(dict_contexts, convert_to_tensor=True, show_progress_bar=True)
 
-print("Saving Contextual Vector Dictionary to disk...")
+print("Saving Contextual Vector Dictionary to disk.")
 vectors_path = os.path.join(dictionary_dir, "sapbert_contextual_vectors_best.pt")
 mapping_path = os.path.join(dictionary_dir, "sapbert_contextual_mapping_best.json")
 torch.save(dictionary_vectors, vectors_path)
@@ -147,6 +108,5 @@ mapping_data = {
 with open(mapping_path, "w", encoding="utf-8") as f:
     json.dump(mapping_data, f)
 
-print("Success! Your elite, WT-split Context-Aware dictionary is ready.")
 print(f"Saved vectors: {vectors_path}")
 print(f"Saved mapping: {mapping_path}")

@@ -6,45 +6,53 @@ from pathlib import Path
 from typing import Optional
 from sentence_transformers import SentenceTransformer, util
 
-# Ensure NLTK is ready for sentence extraction
+# Preparing NLTK for sentence tokenization
 nltk.download('punkt', quiet=True)
 from nltk.tokenize import sent_tokenize
 
-# --- 1. LOAD MODEL ---
-models_root = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models")
+# LOAD THE MODELS FROM ROOT.
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_root = os.path.dirname(os.path.dirname(script_dir))
+models_root = os.path.join(repo_root, "Models", "NERD_CRE")
 model_path = os.path.join(models_root, "SapBERT-from-PubMedBERT-fulltext")
 
-print("Loading SapBERT model...")
+
 model = SentenceTransformer(model_path)
 model.max_seq_length = 128
 
-# --- 2. LOAD SAVED CONTEXTUAL DICTIONARY ---
-print("Loading saved contextual vectors and metadata...")
-repo_root = Path(__file__).parent.parent
-dictionary_vectors = torch.load(repo_root / "dictionary_vectors" / "sapbert_contextual_vectors.pt", weights_only=True)
+vector_candidates = os.path.join(repo_root, "Utils", "sapbert_contextual_vectors_best.pt")
+mapping_candidates = os.path.join(repo_root, "Utils", "sapbert_contextual_mapping_best.json")
 
-with open(repo_root / "dictionary_vectors" / "sapbert_contextual_mapping.json", "r", encoding="utf-8") as f:
+# ERROR HANDLING FOR DICTIONARY FILES
+vectors_path = vector_candidates if os.path.isfile(vector_candidates) else None
+mapping_path = mapping_candidates if os.path.isfile(mapping_candidates) else None
+
+# LOAD THE DICTIONARIES
+print("Loading dictionaries")
+dictionary_vectors = torch.load(vectors_path, weights_only=True)
+
+with open(mapping_path, "r", encoding="utf-8") as f:
     metadata = json.load(f)
     dict_contexts = metadata["contexts"] 
     dict_uris = metadata["uris"]
 
+# CHECK PRINT FOR LOADED DICTIONARY
 print(f"Loaded {len(dict_contexts)} dictionary entries.")
 
-# --- 2b. EXTRACT AND ENCODE SPAN-ONLY VECTORS ---
-print("\nExtracting span-only portions from dictionary contexts...")
+# EXTRACT SPANS BY [SEP] IN SENTENCE SPLITTING FOR 2ND SPAN DICT.
+print("\nExtracting span for dict.")
 dict_spans = []
 for context in dict_contexts:
-    # Split on [SEP] and take only the part before it
     if "[SEP]" in context:
         span = context.split("[SEP]")[0].strip()
     else:
         span = context
     dict_spans.append(span)
 
-print("Encoding span-only dictionary vectors...")
+print("Encoding dictionary spans...")
 dict_span_vectors = model.encode(dict_spans, convert_to_tensor=True, show_progress_bar=True)
 
-# --- 3. LOAD INPUT JSON ---
+# HELPER FUNCTION FOR LOADING THE JSON FROM NER MODEL
 def resolve_existing_path(env_name: str, candidates: list[Path]) -> Optional[Path]:
     env_val = os.getenv(env_name)
     if env_val:
@@ -58,31 +66,24 @@ def resolve_existing_path(env_name: str, candidates: list[Path]) -> Optional[Pat
             return candidate
     return None
 
+# CALL OF HELPER FUNCTION
+input_file = os.path.join(repo_root, "Predictions", "MRE", "predictions_for_CRE.json")
 
-input_file = resolve_existing_path(
-    "GETGUT_CRE_INPUT_JSON",
-    [
-        repo_root / "dev_predictions_CRE.json",
-        repo_root / "predicted_relations_dev.json",
-    ],
-)
-
+# ERROR HANDLING
 if input_file is None:
     raise FileNotFoundError(
         "Could not find CRE input JSON. "
         "Set GETGUT_CRE_INPUT_JSON or provide one of: "
-        f"{repo_root / 'dev_predictions_CRE.json'}, {repo_root / 'predicted_relations_dev.json'}"
+        f"{os.path.join(repo_root, 'Predictions', 'MRE', 'predictions_for_CRE.json')}"
     )
 
-print(f"\nLoading {input_file}...")
+print(f"\nLoading {input_file}")
 
 with open(input_file, "r", encoding="utf-8") as f:
     input_data = json.load(f)
 
-# --- 4. HELPER FUNCTION TO PREDICT URI FOR A TEXT SPAN ---
+# HELPER FUNCTION TO PREDICT URI FOR A GIVEN SPAN
 def predict_uri_for_span(span, abstract_text, sentences):
-    """Predict URI for a given text span using hybrid scoring."""
-    # Find the exact host sentence
     host_sentence = abstract_text
     for sent in sentences:
         if span.lower() in sent.lower():
@@ -105,18 +106,19 @@ def predict_uri_for_span(span, abstract_text, sentences):
     weight_span = 0.85
     hybrid_scores = weight_context * context_scores + weight_span * span_scores
     
-    # Get top-1 match
+    # Get the best matching URI
     best_score, best_idx = hybrid_scores.topk(1)
     predicted_uri = dict_uris[best_idx[0].item()]
     
     return predicted_uri
 
-# --- 5. PREDICT URIS FOR EACH RELATION ---
+# PREDICT CONCEPT-LEVEL RELATIONS
 predictions = {}
 
-print("Predicting concept-level relations for C-RE...")
+print("Predicting concept-level relations for C-RE.")
 total_relations = 0
 
+# Iterate through documents and their mention-level relations to predict concept-level relations
 for doc_id, document in input_data.items():
     abstract_text = document.get("text", document.get("abstract", ""))
     sentences = sent_tokenize(abstract_text) if abstract_text else []
@@ -153,20 +155,13 @@ for doc_id, document in input_data.items():
             
             predictions[doc_id]["concept_level_relations"].append(concept_relation)
 
-# --- 6. SAVE PREDICTIONS TO JSON ---
-output_env = os.getenv("GETGUT_CRE_OUTPUT_JSON")
-if output_env:
-    output_file = Path(output_env)
-    if not output_file.is_absolute():
-        output_file = repo_root / output_file
-else:
-    output_file = repo_root / "CRE_Predictions.json"
+# OUTPUT THE PREDICTIONS TO JSON
 
-output_file.parent.mkdir(parents=True, exist_ok=True)
-print(f"\nSaving concept-level relations to {output_file}...")
+output_file = os.path.join(repo_root, "Predictions", "CRE", "GetGut@AAU_T622_runID.json")
+print(f"\nSaving concept-level relations to {output_file}.")
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(predictions, f, indent=2, ensure_ascii=False)
 
-print(f"✓ Done! Predicted concept-level relations for {total_relations} relations.")
+print(f"Predicted concept-level relations for {total_relations} relations.")
 print(f"Output saved to: {output_file}")

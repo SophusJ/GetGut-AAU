@@ -15,7 +15,8 @@ from transformers import (
     TrainingArguments,
 )
 
-from re_training_utils import (
+#GET UTILS FROM RE_TRAINING_UTILS
+from ...Utils.re_training_utils import (
     BASE_MODEL_PATH,
     DEFAULT_DATASET_SPECS,
     DEFAULT_EVAL_JSON_PATH,
@@ -24,7 +25,7 @@ from re_training_utils import (
     build_shared_re_label_mapping,
 )
 
-# Configure logging
+# Configure logging for the training process
 log_dir = "./re_funnel_logs"
 os.makedirs(log_dir, exist_ok=True)
 
@@ -64,6 +65,8 @@ STAGES = [
 ]
 
 
+## Weighted allocation strategy for the funneled training stages
+# We can adjust these weights based on the perceived quality of each dataset
 class WeightedDataCollator:
     def __init__(self, tokenizer):
         self.base_collator = DataCollatorWithPadding(tokenizer=tokenizer)
@@ -89,11 +92,12 @@ class WeightedSequenceClassificationTrainer(Trainer):
 
         return (weighted_loss, outputs) if return_outputs else weighted_loss
 
-
+#Metrics for training evaluation
 accuracy_metric = evaluate.load("accuracy")
 f1_metric = evaluate.load("f1")
 precision_metric = evaluate.load("precision")
 recall_metric = evaluate.load("recall")
+
 
 
 def compute_metrics(eval_pred):
@@ -112,6 +116,7 @@ def tokenize_function(tokenizer, examples):
     return tokenizer(examples["text"], truncation=True, max_length=512)
 
 
+# Training args
 def get_training_args(output_dir):
     return TrainingArguments(
         output_dir=output_dir,
@@ -130,7 +135,7 @@ def get_training_args(output_dir):
         remove_unused_columns=False,
     )
 
-
+# Train stages
 def train_stage(
     stage_name,
     stage_json_path,
@@ -147,7 +152,8 @@ def train_stage(
     logger.info(f"Train data: {stage_json_path}")
     logger.info(f"Model source: {model_source}")
     logger.info("=" * 80)
-
+    
+    # Load and prepare the dataset for this stage
     stage_dataset = build_re_dataset_from_json(
         stage_json_path,
         label2id=label2id,
@@ -157,6 +163,7 @@ def train_stage(
         max_negatives_when_no_positive=3,
         sampling_seed=42,
     )
+
     logger.info(f"[{stage_name}] Dataset loaded. Size: {len(stage_dataset)}")
 
     if "label" in stage_dataset.column_names:
@@ -174,7 +181,7 @@ def train_stage(
             label2id=label2id,
         )
     else:
-        logger.info(f"[{stage_name}] Subsequent stage - loading from checkpoint")
+        logger.info(f"[{stage_name}] Subsequent stage loading from checkpoint")
         model = AutoModelForSequenceClassification.from_pretrained(model_source)
         if model.config.num_labels != len(label2id):
             logger.error(f"[{stage_name}] Label count mismatch: {model.config.num_labels} vs {len(label2id)}")
@@ -182,11 +189,13 @@ def train_stage(
                 f"Label count mismatch for {stage_name}: {model.config.num_labels} vs {len(label2id)}"
             )
 
+    # Resize token embeddings in case new special tokens were added
     model.resize_token_embeddings(len(tokenizer))
     total_params = sum(p.numel() for p in model.parameters())
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     logger.info(f"[{stage_name}] Model loaded. Total parameters: {total_params}, Trainable: {trainable_params}")
 
+    # Set up the Trainer with weighted data collator and custom compute_metrics
     stage_output_dir = os.path.join(output_root, f"re_funnel_{stage_name}")
     trainer = WeightedSequenceClassificationTrainer(
         model=model,
@@ -206,9 +215,11 @@ def train_stage(
         logger.exception(f"[{stage_name}] Training crashed")
         raise
 
+    # Evaluate the model on the eval dataset
     eval_metrics = trainer.evaluate()
     logger.info(f"[{stage_name}] Eval metrics: {eval_metrics}")
 
+    # Save the final model
     final_model_dir = os.path.join(stage_output_dir, "final_model")
     trainer.save_model(final_model_dir)
     tokenizer.save_pretrained(final_model_dir)
@@ -222,25 +233,24 @@ def train_stage(
         "eval_metrics": eval_metrics,
     }
 
-
+# Main execution function
 def main():
     logger.info("=" * 80)
     logger.info("RE FUNNELED TRAINING PIPELINE")
     logger.info(f"Started at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     logger.info("=" * 80)
 
-    logger.info("Building shared label mapping...")
     label2id, id2label = build_shared_re_label_mapping(
         [path for path, _ in DEFAULT_DATASET_SPECS] + [DEFAULT_EVAL_JSON_PATH]
     )
     logger.info(f"Label mapping created with {len(label2id)} labels")
 
-    logger.info("Loading tokenizer and adding special marker tokens...")
+    logger.info("Loading tokenizer and adding special marker tokens.")
     tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_PATH)
     tokenizer.add_tokens(SPECIAL_MARKER_TOKENS)
     logger.info(f"Tokenizer loaded with vocab size: {tokenizer.vocab_size}")
 
-    logger.info("Loading evaluation dataset...")
+    logger.info("Loading evaluation dataset.")
     eval_dataset = build_re_dataset_from_json(
         DEFAULT_EVAL_JSON_PATH,
         label2id=label2id,
@@ -250,6 +260,7 @@ def main():
         max_negatives_when_no_positive=3,
         sampling_seed=42,
     )
+
     if "label" in eval_dataset.column_names:
         eval_dataset = eval_dataset.rename_column("label", "labels")
     eval_dataset = eval_dataset.map(lambda batch: tokenize_function(tokenizer, batch), batched=True, remove_columns=['text'])
@@ -292,5 +303,4 @@ def main():
 
 
 if __name__ == "__main__":
-    logger.info("Script invoked as main")
     main()

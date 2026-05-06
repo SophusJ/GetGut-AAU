@@ -8,11 +8,11 @@ Repository for the **GetGut@AAU** submission to the **CLEF 2026 challenge**.
 
 This repository contains:
 
-- **Annotations/**: input data in the expected JSON format (e.g., test articles).
-- **InferenceScripts/**: scripts to run the full inference pipeline and produce submission JSON files.
-- **Train/**: training code (organized by task).
-- **Utils/**: helper artifacts (e.g., label mappings, contextual dictionaries/vectors).
-- **Predictions/**: generated outputs in submission format.
+- **Annotations**: input data in the expected JSON format (e.g., test articles).
+- **InferenceScripts**: scripts to run the full inference pipeline and produce submission JSON files.
+- **Train**: training code (organised by task).
+- **Utils**: helper artefacts (e.g., label mappings, contextual dictionaries/vectors).
+- **Predictions**: generated outputs in submission format.
 
 The current codebase is Python-only.
 
@@ -26,7 +26,7 @@ The pipeline is split into the following stages:
      - `Predictions/NER/GetGut@AAU_T611_runID.json`
      - `Predictions/NER/predictions_for_NERD_MRE.json` (intermediate file used by later stages)
 
-2. **NERD (Entity Linking / Normalization)**
+2. **NERD (Entity Linking / Normalisation)**
    - Script: `InferenceScripts/NERD/Predict_NERD.py`
    - Output:
      - `Predictions/NERD/GetGut@AAU_T612_runID.json`
@@ -108,7 +108,7 @@ Notes:
 
 ## Model citations (required)
 
-This repository uses / loads the following model families in code. If you use or redistribute these models, **please cite the original works** and comply with their licenses.
+This repository uses/loads the following model families in code. If you use or redistribute these models, **please cite the original works** and comply with their licenses.
 
 1. **GLiNER** (used for NER)
    - Code uses: `from gliner import GLiNER` and loads a checkpoint via `GLiNER.from_pretrained(...)`.
@@ -131,7 +131,7 @@ This repository uses / loads the following model families in code. If you use or
      - Hugging Face Transformers: https://github.com/huggingface/transformers
      - Sentence-Transformers: https://www.sbert.net/
 
-> Important: the exact checkpoint names (and therefore the exact citations) depend on what is placed in `Models/`. Update this section with the **precise model IDs** (e.g., `urchade/gliner_multi_v2.1`, `cambridgeltl/SapBERT-from-PubMedBERT-fulltext`, etc.) once finalized.
+> Important: the exact checkpoint names (and therefore the exact citations) depend on what is placed in `Models/`. Update this section with the **precise model IDs** (e.g., `urchade/gliner_multi_v2.1`, `cambridgeltl/SapBERT-from-PubMedBERT-fulltext`, etc.) once finalised.
 
 ## License
 
